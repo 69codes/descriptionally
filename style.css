@@ -1,0 +1,1053 @@
+:root {
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+body {
+    background-color: rgb(214, 228, 241);
+    
+}
+
+.wrapper {
+    background-color: white;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 3%;
+    width: 94%;
+    height: 147vh;
+    border-radius: 0.6em;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    display: flex;
+
+}
+
+@media only screen and (max-width : 540px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    }
+
+
+.mainone {
+    height: 100%;
+    border-style: solid;
+    border-color: rgb(214, 228, 241);
+    border-width: 1px;
+    width: 6.25%;
+    border-top-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+
+}
+ .maintwo {
+    height: 100%;
+    width: 68.75%;
+    border-top-style: none;
+    border-bottom-style: none;
+ }
+
+ .mainthree {
+    height: 100%;
+    border-style: solid;
+    border-color: rgb(214, 228, 241);
+    border-width: 1px;
+    width: 25%;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: none;
+ }
+
+
+
+
+
+ form.example input[type=text] {
+    padding: 12.5px;
+    font-size: 12px;
+    border: none;
+    float: left;
+    width: 74.5%;
+    background-color: aliceblue;
+    margin-top: 3.5%;
+    margin-left: 4%;
+    border-radius: 0.6em;
+
+    
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: 'Questrial', sans-serif;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 16%;
+    padding: 12.5px;
+    background: rgb(76, 179, 243);
+    color: white;
+    font-size: 12px;
+    border: 1px none grey;
+    border-radius: 0.6em;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    margin-top: 3.5%;
+    margin-left: 1.5%;
+    font-family: 'Questrial', sans-serif;
+    
+  }
+  /* a1 is the line of the categories and the dot*/
+  
+  .a1 {
+    margin-left: 4%;
+    padding-top: 10%;
+    font-weight: 900;
+    font-size: medium;
+  }
+  
+  .dot {
+    height: 3px;
+    width: 3px;
+    background-color: rgb(133, 132, 132);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dots{
+      margin-left: 85%;
+  }
+
+  .emojiwrapper {
+      display: flex;
+      margin-left: 2%;
+      margin-right: 2.2%;
+      margin-top: 2%;
+      flex-wrap: wrap;
+  }
+
+  .b {
+      width: 47px;
+      height: 47px;
+      background-color: aliceblue;
+      margin: auto;
+      border-radius: 0.75em;
+  }
+
+  /*ps is the one below, it will be a flex item, with space between*/
+  .ps {
+      display: flex;
+      margin-top: 5.9%;
+      margin-left: 3%;
+      margin-right: 3%;
+      z-index: 1;
+  }
+  .profit {
+      height: 40vh;
+      width: 33%;
+      border-style: none;
+      margin-right: 6%;
+      border-color: rgb(214, 228, 241);
+      border-width: 1px;
+      box-shadow: 40px 19px 27px aliceblue;
+      border-radius: 0.75em;
+      padding-top: 3.5%;
+      z-index: 1;
+
+  }
+ .salesst {
+      width: 37%;
+      border-style: solid;
+      height: 40vh;
+      border-color: rgb(214, 228, 241);
+      border-width: 1px;
+      border-top-style: none;
+      border-bottom-style: none;
+      border-right-style: none;
+  }
+  .salet {
+      width: 37%;
+      border-style: solid;
+      height: 40vh;
+      border-color: rgb(214, 228, 241);
+      border-width: 1px;
+      border-top-style: none;
+      border-bottom-style: none;
+  }
+  /*lets get a bit into profit for a start*/
+  .pr {
+      display: flex;
+  }
+  .num {
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    float: inline-start;
+    margin-left: 12%;
+    text-align: center;
+    padding-top: 3%;
+    font-weight: 900;
+    font-size: small;
+    
+  }
+.bak {
+    padding-left: 6%;
+    margin-top: 2.6%;
+    padding-bottom: 3%;
+    font-size: 13px;
+    font-weight: 900;
+   
+} 
+.twelve {
+    height: 21px;
+    width: 47px;
+    background-color: aliceblue;
+    border-radius: 1.9em;
+    margin-top: 3%;
+    text-align: center;
+}
+.pos{
+    margin-left: 25%;
+    background-color: #ebfff6;                            /* rgb(224, 241, 235);*/
+    font-size: small;
+    color: rgb(3, 207, 3);
+    font-weight: 600;
+    padding-top: 1.3%;
+}
+.neg{
+    margin-left: 13%;
+    background-color: rgb(247, 237, 239);
+    color: rgb(248, 85, 112);
+    font-size: small;
+    font-weight: 600;
+    padding-top: 1.3%;
+}
+.saa {
+    width: 75%;
+    padding: 12.5px;
+    background: aliceblue;
+    color:  rgb(76, 179, 243);
+    font-size: 12px;
+    border: 1px none grey;
+    border-radius: 0.6em;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    margin-top: 6.5%;
+    margin-left: 12%;
+    font-family: 'Questrial', sans-serif;
+}
+
+
+/*Lets do magic here with the divs- more than 30 will be here, thank God for flex layout*/
+
+.percent {
+    display: flex;
+    color: rgb(157, 159, 160);
+    font-size: small;
+    font-weight: 600;
+    
+}
+.per {
+    width: 25%;
+    height: 8vh;
+    border-style: solid;
+    text-align: center;
+    border-color: rgb(214, 228, 241);
+    border-width: 1px;
+    padding-top: 7%;
+    
+
+}
+.ce {
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+.de {
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+.ee {
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+.fe {
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+.week {
+    text-align: center;
+    color: rgb(157, 159, 160);
+    font-size: small;
+    font-weight: 600;
+    margin-top: 14%;
+    
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    align-items: flex-end;
+}
+.blue {
+    width: 5.2px;
+    height: 90px;
+    background-color: rgb(76, 179, 243);
+    border-top-right-radius: 0.9em;
+    border-top-left-radius: 0.9em;
+}
+.eight {
+    height: 23px;
+}
+.seven {
+    height: 40px;
+}
+.nine {
+    height: 32px;
+}
+.ten {
+    height: 50px;
+}
+
+.figures {
+    margin-left: 3.2%;
+    margin-top: 3%;
+    color: rgb(157, 159, 160);
+}
+
+
+/*Let's do the best table of our life in this project. SORRY BUT NOT SORRY*/
+
+table {
+    width: 160px;
+    border-collapse: collapse;
+    margin-left: 4%;
+}
+
+.nbk {
+    width: 50em;   
+    height: 44vh;
+}
+
+
+.table {
+    margin-top: 13.5%;
+    width: 100%;
+}
+th {
+    text-align: left;
+    background-color: aliceblue;
+    border-radius: 0.5em;
+    height: 16%;
+    font-weight: bold;
+    font-size: small;
+}
+.box {
+    width: 18.2px;
+    height: 18.2px;
+    background-color: aliceblue;
+    border-radius: 0.3em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(217, 234, 248);
+}
+td {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: aliceblue;
+    font-weight: bold;
+    font-size: small;
+}
+tr:hover {
+    background-color: aliceblue;
+}
+.sac {
+    width: 55%;
+    padding: 12.5px;
+    color: rgb(248, 85, 112);
+    background:  rgb(247, 237, 239);
+    font-weight: bolder;
+    font-size: small;
+    border: 1px none grey;
+    border-radius: 0.6em;
+    border-left: none; /* Prevent double borders */
+}
+.saco {
+    width: 55%;
+    padding: 12.5px;
+    background:  rgb(247, 237, 239);
+    background-color: #ebfff6;                            /* rgb(224, 241, 235);*/
+    font-size: small;
+    color: rgb(40, 151, 40);
+    font-weight: bolder;
+    font-size: small;
+    border: 1px none grey;
+    border-radius: 0.6em;
+    border-left: none; /* Prevent double borders */
+}
+.aor {
+    display: flex;
+    width: 59%;
+    height: 4vh;
+    margin-top: -2.7%;
+    position: absolute;
+    margin-left: 3%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: aliceblue;
+    font-weight: bolder;
+    color: gray;
+}
+
+.ro {
+    border-bottom-style: solid;
+    border-bottom-color: rgb(76, 179, 243);
+    border-bottom-width: 1.2px;
+    color: rgb(76, 179, 243);
+
+}
+.red {
+    margin-left: 4%;
+}
+.rn {
+    margin-left: 4%;
+}
+
+/*lats go to main three and see what we have in times of design*/
+
+.graph {
+    width: 80%;
+    height: 20.8vh;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 0.45em;
+}
+.up {
+    margin-top: 20%;
+    border-style: none;
+    box-shadow: 4px 19px 27px aliceblue;
+}
+
+.mig{
+    width: 45%;
+    padding-bottom: 5%;
+    float: right;
+}
+.gmi {
+    margin-top: -20%;
+}
+.down {
+    border-width: 2px;
+    border-color: aliceblue;
+}
+.total {
+    margin-top: 6%;
+    margin-left: 7%;
+   color: rgb(146, 145, 145)
+}
+.port {
+    margin-left: 7%;
+    margin-top: 3%;
+    font-weight: 900;
+    font-size: x-large;
+}
+.ss {
+    font-size: x-small;
+    margin-left: 1%;
+}
+.xq {
+    color: rgb(40, 151, 40);
+}
+.xz {
+    color: rgb(248, 85, 112);
+}
+.net {
+    display: flex;
+    margin-left: 7%;
+    margin-top: 6%;
+    border-top-style: solid;
+    border-top-width: 1.3px;
+    border-top-color: aliceblue;
+    width: 90%;
+    padding-top: 6%;
+    justify-content: space-between;
+    font-size: small;
+}
+.cato {
+    color: rgb(76, 179, 243);
+    font-weight: bold;
+}
+
+.anp {
+    color: rgb(146, 145, 145);
+    font-weight: bold;
+}
+.product {
+    width: 80%;
+    margin-left: 10%;
+    height: 29vh;
+    border-style: solid;
+    margin-top: 16%;
+    border-width: 1.3px;
+    border-color: aliceblue;
+    border-radius: 0.45em;
+}
+.sony {
+    display: flex;
+    height: 30%;
+    border-style: none;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-between;
+    border-bottom-color: aliceblue;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.iphone {
+    display: flex;
+    border-style: none;
+    height: 27%;
+    width: 90%;
+    margin-left: 5%;
+    justify-content: space-between;
+}
+.ead {
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 0.3em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(217, 234, 248);
+    margin-top: 6%;
+}
+
+.ass{
+    width: 80%;
+    padding-left: 15%;
+    padding-top: 15%;
+}
+
+.twice {
+    padding: 5%;
+    padding-left: 0.5%;
+}
+.date {
+    color: rgb(146, 145, 145);
+    font-size: small;
+    font-weight: 600;
+    padding-top: 2%;
+}
+.xm {
+    font-weight: 600;
+}
+.ange {
+    margin-top: 5%;
+    font-size: small;
+    font-weight: bold;
+}
+.n {
+    color: rgb(248, 85, 112);
+}
+.g {
+    color: rgb(40, 151, 40);
+}
+
+.sax {
+    width: 90%;
+    padding: 12px;
+    background: aliceblue;
+    color:  rgb(76, 179, 243);
+    font-size: 12px;
+    border: 1px none grey;
+    border-radius: 0.6em;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    margin-top: 6.5%;
+    margin-left: 5%;
+    font-weight: bold;
+    font-family: 'Questrial', sans-serif;
+}
+
+.people {
+    display: flex;
+    flex-direction: column;
+    height: 36vh;
+    justify-content: space-between;
+    margin-top: 19%;
+}
+.lz {
+    width: 80%;
+    margin-left: 10%;
+    border-style: solid;
+    height: 30%;
+    border-width: 1.5px;
+    border-color: aliceblue;
+    border-radius: 0.45em;
+    display: flex;
+}
+.dae {
+    width: 32px;
+    height: 32px;
+    background-color: aliceblue;
+    border-radius: 0.3em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(217, 234, 248);
+    margin-top: 6%;
+    margin-left: 6%;
+}
+.thrice {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.ant {
+    font-weight: bold;
+}
+.di {
+    padding-top: 4%;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(146, 145, 145);
+}
+.erif {
+    width: 47.5%;
+}
+.c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.erig {
+    width: 60%;
+}
+.e {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cado {
+    height: 60%;
+}
+.f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.medicine {
+    width: 60%;
+    
+}
+.g {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.beve {
+    width: 60%;
+}
+.h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vio {
+    width: 60%;
+}
+.i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cook {
+    width: 60%;
+}
+.j {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.art {
+    width: 60%;
+}
+.k {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pho {
+    width: 60%;
+}
+.l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bab {
+    width: 60%;
+}
+.m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flow {
+    width: 60%;
+}
+.dae{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hok {
+    width: 70%;
+}
+.cas {
+    width: 70%;
+}
+.prr {
+    width: 80%;
+}
+.jki {
+    display: flex;
+    padding-left: 2%;
+    padding-top: 1.2%;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(146, 145, 145);
+}
+.itm {
+    padding-left: 2%;
+}
+.zo {
+    margin-left: 2%;
+}
+.zi {
+    margin-left: 1%;
+}
+.zu {
+    margin-left: 3.75%;
+}
+.zy {
+    margin-left: 0.5%;
+}
+.zt {
+    margin-left: 1.4%;
+}
+.zr {
+    margin-left: 3%;
+}
+.ze {
+    margin-left: 3%;
+}
+.zw {
+    margin-left: 2.7%;
+}
+.za {
+    margin-left: 3%;
+}
+.pit {
+    display: flex;
+    margin-left: 7%;
+    position: absolute;
+    margin-top: 5%;
+}
+.tabel {
+    display: flex;
+    justify-content: space-between;
+}
+.selas {
+    display: flex;
+    justify-content: space-between;
+}
+.stod {
+    height: 3px;
+    width: 3px;
+    background-color: rgb(133, 132, 132);
+    border-radius: 50%;
+}
+
+
+
+/*lets get main one done*/ 
+.mainone {
+    display: flex;
+    flex-direction: column;
+
+}
+.glass {
+    width: 50%;
+    margin-left: 25%;
+    border-style: none;
+    height: 100%;
+}
+.brea {
+    height: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: aliceblue;
+    border-bottom-width: 1.7px;
+}
+.ver {
+    width: 155%;
+    padding-right: 50%;
+    
+}
+.bre {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+.br {
+    height: 28.5%;
+    border-style: none;
+    border-top-style: solid;
+    border-top-width: 1.7px;
+    border-color: aliceblue;
+    padding-top: 7%;
+}
+.ome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23%;
+}
+.emo {
+    width: 70%;
+}
+.emoz {
+    width: 220%;
+    
+}
+.omz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 26%;
+}
+.bxc {
+    border-right-style: solid;
+    border-right-color: black;
+    border-right-width: 2px;
+    height: -35%;
+}
+
+/*gertertretrretrgtrtt3wq3fgg4y6ju865ye4*/
+#hide {
+    width: 160px;
+    height: 155px;
+    background-color: aliceblue;
+    color: black;
+    padding: 28px;
+    position: relative;
+    margin: 0px;
+    float: left;
+    margin-top: -6.8%;
+    border-radius: 0.65em;
+    z-index: 99;
+    display: none;
+    
+  }
+#hide:after {
+    content: " ";
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    border-top: 15px solid transparent;
+    border-right: 25px solid aliceblue;
+    border-left: none;
+    border-bottom: 15px solid transparent;
+    margin-top: 25%;
+ 
+
+  }
+  .hed {
+      display: flex;
+  }
+  .your {
+      text-align: center;
+      padding-top: 10%
+  }
+  .jin {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin: 30px;
+    
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transition: all 1s; 
+  }
+  .jin.pin {  
+    -webkit-animation-delay:1s;
+    -moz-animation-delay:1s;
+    -ms-animation-delay:1s;
+    -o-animation-delay:1s;
+    animation-dely:1s;
+  }
+  .jin.hin {
+    -webkit-animation: 1600ms pulsate infinite alternate ease-in-out;
+    -moz-animation: 1600ms pulsate infinite alternate ease-in-out;
+    -ms-animation: 1600ms pulsate infinite alternate ease-in-out;
+    -o-animation: 1600ms pulsate infinite alternate ease-in-out;
+    animation: 1600ms pulsate infinite alternate ease-in-out;
+  }
+  .jin.pin {
+    
+        -webkit-animation: 1600ms pulsate infinite alternate ease-in-out;
+        -moz-animation: 1600ms pulsate infinite alternate ease-in-out;
+        -ms-animation: 1600ms pulsate infinite alternate ease-in-out;
+        -o-animation: 1600ms pulsate infinite alternate ease-in-out;
+        animation: 1600ms pulsate infinite alternate ease-in-out;
+      }
+  
+  .jin.kin{
+    
+        -webkit-animation: 1600ms pulsate infinite alternate ease-in-out;
+        -moz-animation: 1600ms pulsate infinite alternate ease-in-out;
+        -ms-animation: 1600ms pulsate infinite alternate ease-in-out;
+        -o-animation: 1600ms pulsate infinite alternate ease-in-out;
+        animation: 1600ms pulsate infinite alternate ease-in-out;
+      
+  }
+  .jin:before,
+  .jin:after { 
+    position: absolute; 
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+  }
+  .jin:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+  }
+
+  @keyframes pulsate {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+    100% { transform: scale(1); }
+  }
+  @-webkit-keyframes pulsate {
+    0% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(1.3); }
+    100% { -webkit-transform: scale(1); }
+  }
+  @-moz-keyframes pulsate {
+    0% { -moz-transform: scale(1); }
+    50% { -moz-transform: scale(1.3); }
+    100% { -moz-transform: scale(1); }  
+  }
+  @-ms-keyframes pulsate {
+    0% { -ms-transform: scale(1); }
+    50% { -ms-transform: scale(1.3); }
+    100% { -ms-transform: scale(1); }  
+  }
+  @-o-keyframes pulsate {
+    0% { -o-transform: scale(1); }
+    50% { -o-transform: scale(1.3); }
+    100% { -o-transform: scale(1); }  
+  }
+.favit:hover {
+    fill: black;
+
+}
+.ome:hover {
+    width: 120%;
+}
+.zxq:hover {
+    fill: black;
+
+}
+.xqz:hover {
+    fill: black;
+}
+.qxz:hover {
+    fill: black;
+}
+.xzq:hover {
+    fill: black;
+}
+
+#means {
+    width: 160px;
+    height: 155px;
+    background-color: aliceblue;
+    color: black;
+    padding: 28px;
+    position: relative;
+    margin: 0px;
+    float: left;
+    margin-top: 1%;
+    border-radius: 0.65em;
+    z-index: 99;
+    display: none;
+}
+#means::after {
+    content: " ";
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    border-top: 15px solid transparent;
+    border-right: 25px solid aliceblue;
+    border-left: none;
+    border-bottom: 15px solid transparent;
+    margin-top: 23%;
+}
+
+/*responsivitityyyyyy*/ 
